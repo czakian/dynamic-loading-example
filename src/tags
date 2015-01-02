@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+FAILURE	/home/czakian/Research/dynamic-loading-example/src/dynamic_loader.h	4;"	d
+SUCCESS	/home/czakian/Research/dynamic-loading-example/src/dynamic_loader.h	5;"	d
+__DYNAMIC_LOADER_H_	/home/czakian/Research/dynamic-loading-example/src/dynamic_loader.h	2;"	d
+__dynamic_fn_entry_point__	/home/czakian/Research/dynamic-loading-example/src/loaded_module.c	/^int __dynamic_fn_entry_point__(void *args, void *result) $/;"	f	signature:(void *args, void *result)
+__dynamic_fn_entry_point__	/home/czakian/Research/dynamic-loading-example/src/loaded_module/test.c	/^int __dynamic_fn_entry_point__(void *args, void *result) $/;"	f	signature:(void *args, void *result)
+exec_dynamic_function	/home/czakian/Research/dynamic-loading-example/src/dynamic_loader.c	/^int exec_dynamic_function(const char *so_name, const char *fn_name, void *args, void *result)$/;"	f	signature:(const char *so_name, const char *fn_name, void *args, void *result)
+exec_dynamic_function	/home/czakian/Research/dynamic-loading-example/src/dynamic_loader.h	/^int exec_dynamic_function(const char *so_name, const char *fn_name, void *args, void *result);$/;"	p	signature:(const char *so_name, const char *fn_name, void *args, void *result)
+fib	/home/czakian/Research/dynamic-loading-example/src/loaded_module.c	/^int fib(int n) $/;"	f	signature:(int n)
+fib_accum	/home/czakian/Research/dynamic-loading-example/src/loaded_module.c	/^int fib_accum(int n, int accum1, int accum2) $/;"	f	signature:(int n, int accum1, int accum2)
+load_fn_from_shared_object	/home/czakian/Research/dynamic-loading-example/src/dynamic_loader.c	/^int load_fn_from_shared_object(void *handle, const char *fn_name, void **fn_ptr)$/;"	f	signature:(void *handle, const char *fn_name, void **fn_ptr)
+load_fn_from_shared_object	/home/czakian/Research/dynamic-loading-example/src/dynamic_loader.h	/^int load_fn_from_shared_object(void *handle, const char *fn_name, void **fn_ptr);$/;"	p	signature:(void *handle, const char *fn_name, void **fn_ptr)
+load_shared_object	/home/czakian/Research/dynamic-loading-example/src/dynamic_loader.c	/^int load_shared_object(const char *so_name, void **handle)$/;"	f	signature:(const char *so_name, void **handle)
+load_shared_object	/home/czakian/Research/dynamic-loading-example/src/dynamic_loader.h	/^int load_shared_object(const char *so_name, void **handle);$/;"	p	signature:(const char *so_name, void **handle)
+log_error	/home/czakian/Research/dynamic-loading-example/src/dynamic_loader.h	8;"	d
+main	/home/czakian/Research/dynamic-loading-example/src/dynamic_loader.c	/^int main(int argc, char** argv)$/;"	f	signature:(int argc, char** argv)
+unload_shared_object	/home/czakian/Research/dynamic-loading-example/src/dynamic_loader.c	/^void unload_shared_object(void **handle)$/;"	f	signature:(void **handle)
+unload_shared_object	/home/czakian/Research/dynamic-loading-example/src/dynamic_loader.h	/^void unload_shared_object(void **handle);$/;"	p	signature:(void **handle)
